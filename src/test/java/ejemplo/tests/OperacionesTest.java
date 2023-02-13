@@ -6,7 +6,7 @@ import ejemplo.Operaciones;
 
 import static org.junit.Assert.*;
 
-public class PruebaOperaciones {
+public class OperacionesTest {
 
 	@Test
 	public void pruebaSuma() {
