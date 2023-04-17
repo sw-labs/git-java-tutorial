@@ -7,7 +7,7 @@ tasks:
     command: sudo apt-get install git-flow
 
   - name: Compila proyecto sin ejecutar pruebas
-    init: ./mvnw package -DskipTests 
+    command: mvn package -DskipTests 
 
 # Extensiones
 vscode:
