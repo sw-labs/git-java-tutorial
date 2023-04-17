@@ -1,5 +1,6 @@
 # Archivos a ignorar por Git
 # ver: https://git-scm.com/docs/gitignore
+# ejemplos: https://github.com/github/gitignore
 
 # Programas compilados
 *.class
