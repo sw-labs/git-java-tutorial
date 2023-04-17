@@ -1,0 +1,15 @@
+# Configuración de Gitpod
+# ver: https://www.gitpod.io/docs/introduction/learn-gitpod/gitpod-yaml
+
+# Comandos a ejecutar al inicio del proyecto
+tasks:
+  - name: Instala Git Flow
+    command: sudo apt-get install git-flow
+
+  - name: Compila proyecto sin ejecutar pruebas
+    init: ./mvnw package -DskipTests 
+
+# Extensiones
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
